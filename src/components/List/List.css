@@ -1,0 +1,47 @@
+ul {
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-style: none;
+  color: #d3d0cb;
+  background-color: #2e5266;
+}
+
+li i {
+  margin-left: 1em;
+}
+
+li i:hover {
+  cursor: pointer;
+}
+
+li div {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+li div span {
+  display: block;
+}
+
+span.text {
+  font-weight: bold;
+}
+
+span.time {
+  display: inline-block;
+  padding-top: 0.5em;
+  font-size: 0.5em;
+  width: 100%;
+}

@@ -1,0 +1,17 @@
+.Card {
+  margin: 100px auto;
+  max-width: 300px;
+  color: #d3d0cb;
+  font-family: Roboto;
+}
+
+.Card ul {
+  list-style: none;
+}
+
+.Card h1 {
+  text-align: center;
+}
+.Card input {
+  font-size: 1em;
+}
